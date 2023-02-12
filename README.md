@@ -7,14 +7,14 @@ applications written in server-side JavaScript.
 
 Install the package with:
 
-    npm install @tropos/kong-admin-api-client --save
+    npm install @giovanibrioni/kong-admin-api-client --save
 
 ## Usage
 
 The package needs to be configured with your Admin API's URL.
 
 ```javascript
-const Kong = require('@tropos/kong-admin-api-client');
+const Kong = require('@giovanibrioni/kong-admin-api-client');
 
 const adminAPIURL = 'http://localhost:8001';
 // Create a new client with the default exported constructor
